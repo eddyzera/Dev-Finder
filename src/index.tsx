@@ -2,10 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './style/css/style.css'
 import { App } from './App'
+import { ThemeProvider } from './provider/store'
 
 ReactDOM.render(
-  <React.StrictMode>
+  <ThemeProvider>
     <App />
-  </React.StrictMode>,
+  </ThemeProvider>,
   document.getElementById('root')
 )
