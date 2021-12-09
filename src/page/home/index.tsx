@@ -3,7 +3,7 @@ import { Header } from '../../components/header'
 
 export const Home: React.FC = () => {
   return (
-    <div className="container">
+    <div className="home">
       <Header />
     </div>
   )
