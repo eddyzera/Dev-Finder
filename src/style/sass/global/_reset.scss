@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Nunito', sans-serif;
+  background: map-get($gray, '400' );
   color: map-get($gray , '500')
 }
 

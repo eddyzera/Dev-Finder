@@ -1,5 +1,11 @@
 /* Global */
 @use './global';
 
+/* Mobile */
+@use './mobile';
+
 /* Page */
 @use './page';
+
+/* Component */
+@use './components'
