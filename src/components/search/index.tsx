@@ -5,7 +5,7 @@ export const Search: React.FC = () => {
     <div className="search">
       <form>
         <input type="text" placeholder="Pesquise o username do GitHub" />
-        <button>Search</button>
+        <button>Pesquisar</button>
       </form>
     </div>
   )
